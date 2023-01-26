@@ -50,7 +50,7 @@ const items = [
         image: GoodImage
     },
     {
-        id: 1,
+        id: 4,
         name: 'Топас-С 4',
         description: 'До 4 человек',
         oldPrice: '86 700 ₽',
@@ -62,7 +62,7 @@ const items = [
         image: GoodImage
     },
     {
-        id: 2,
+        id: 5,
         name: 'Топас-С 4 Пр',
         description: 'До 4 человек',
         oldPrice: '98 300 ₽',
@@ -74,7 +74,7 @@ const items = [
         image: GoodImage
     },
     {
-        id: 3,
+        id: 6,
         name: 'Топас-С 5',
         description: 'До 5 человек',
         oldPrice: '99 500 ₽',
