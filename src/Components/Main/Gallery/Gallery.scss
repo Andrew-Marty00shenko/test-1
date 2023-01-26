@@ -1,0 +1,109 @@
+.gallery {
+    margin-top: 78px;
+    display: flex;
+
+    &__scrollbar {
+        overflow-y: auto;
+        height: 435px;
+        width: 184px;
+        direction: rtl;
+
+        &::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #E7E7E7;
+            border-radius: 50px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background: #319F1C;
+            border-radius: 50px;
+        }
+
+        li {
+            direction: ltr;
+            margin-bottom: 17px;
+            cursor: pointer;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+
+            &:hover {
+                img {
+                    border: 2px solid #319F1C;
+                }
+            }
+
+            img {
+                width: 134px;
+                height: 93px;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    &__image-main {
+        margin-left: 21px;
+        position: relative;
+
+        img {
+            height: 435px !important;
+            height: 671px;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        .scale-image {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 4px;
+            right: 0;
+            width: 65px;
+            height: 65px;
+            background-color: #319F1C;
+        }
+    }
+}
+
+.image-fullscreen {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity ease 0.4s;
+
+    &.show {
+        visibility: visible;
+        opacity: 1;
+
+        div {
+            position: relative;
+
+            img {
+                height: 435px !important;
+                height: 671px;
+            }
+
+            svg {
+                position: absolute;
+                top: 15px;
+                right: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+}

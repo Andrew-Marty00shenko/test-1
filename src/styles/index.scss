@@ -21,6 +21,9 @@ body,
 html,
 #root {
     color: #000;
+    background-image: url("../Assets/images/backgrounds/main-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 * {
