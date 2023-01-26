@@ -8,26 +8,26 @@ body {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
-    background-color: #1A1B20 !important;
+    background-color: #fff;
 }
 
 body,
 .wrapper,
 html,
 #root {
-    color: #fff;
+    color: #000;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     outline: none;
     list-style-type: none;
 }
@@ -47,4 +47,29 @@ a {
 ul {
     padding-left: 0 !important;
     margin-bottom: 0 !important;
+}
+
+button {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    background: #319F1C;
+    box-shadow: 0px 4px 5px #319F1C;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+        background: #38b81e;
+        box-shadow: 0px 4px 5px #38b81e;
+    }
+
+    &:active {
+        background: #36a720;
+        box-shadow: 0px 4px 5px #36a720;
+    }
 }
