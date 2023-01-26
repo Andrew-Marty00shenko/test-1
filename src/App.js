@@ -1,3 +1,4 @@
+import BottomContent from "Components/BottomContent/BottomContent";
 import Goods from "Components/Goods/Goods";
 import Header from "Components/Header/Header";
 import Main from "Components/Main/Main";
@@ -9,6 +10,7 @@ const App = () => {
     <Navigation />
     <Main />
     <Goods />
+    <BottomContent />
   </div>
 }
 
