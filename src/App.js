@@ -1,4 +1,5 @@
 import BottomContent from "Components/BottomContent/BottomContent";
+import Footer from "Components/Footer/Footer";
 import Goods from "Components/Goods/Goods";
 import Header from "Components/Header/Header";
 import Main from "Components/Main/Main";
@@ -11,6 +12,7 @@ const App = () => {
     <Main />
     <Goods />
     <BottomContent />
+    <Footer />
   </div>
 }
 
