@@ -1,5 +1,6 @@
 .main {
     margin-top: 69px;
+    padding: 0px 170px;
     position: relative;
 
     h1 {
@@ -70,7 +71,7 @@
 
     &__side-menu {
         position: absolute;
-        right: -170px;
+        right: 0px;
         top: 0;
 
         .block {

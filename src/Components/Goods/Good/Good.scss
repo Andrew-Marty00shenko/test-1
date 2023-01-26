@@ -1,0 +1,101 @@
+.good {
+    width: 507px;
+    padding: 58px 38px 58px 37px;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    max-width: 501px;
+
+    &__info {
+        display: flex;
+        border-bottom: 1px #319F1C;
+        border-bottom-style: dashed;
+        padding-bottom: 36px;
+
+        .info-image {
+            margin-right: 53px;
+        }
+
+        .info-desc {
+            h4 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 29px;
+                color: #363636;
+            }
+
+            p.desc {
+                margin-top: 12px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #797979;
+            }
+
+            p.old-price {
+                margin-top: 30px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                text-decoration-line: line-through;
+            }
+
+            p.new-price {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 24px;
+                line-height: 29px;
+                color: #319F1C;
+            }
+
+            .characters {
+                display: flex;
+
+                &.one {
+                    margin-top: 40px;
+                }
+
+                &.two {
+                    margin-top: 19px;
+                }
+
+                p {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    margin-right: 18px;
+
+
+                    span {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__buttons {
+        margin-top: 49px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            width: 201px;
+            height: 40px;
+
+            &:first-child {
+                background-color: #fff;
+                box-shadow: none;
+                border: 1px solid #363636;
+                border-radius: 3px;
+                color: #363636;
+            }
+        }
+    }
+}

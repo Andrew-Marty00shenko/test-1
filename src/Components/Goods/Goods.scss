@@ -1,0 +1,71 @@
+.goods {
+    position: relative;
+    z-index: 100;
+    padding: 199px 170px 31px;
+
+    .side-image.one {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0px;
+    }
+
+    .side-image.two {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 39px;
+        color: #363636;
+        margin-bottom: 77px;
+    }
+
+    &__list {
+        position: relative;
+
+        .swiper-left-button,
+        .swiper-right-button {
+            position: absolute;
+            width: 73px;
+            height: 73px;
+            border-radius: 50%;
+            background: #319F1C;
+            border: 5px solid #FFFFFF;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+            transform: rotate(180deg);
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .swiper-left-button {
+            top: 270px;
+            right: -93px;
+        }
+
+        .swiper-right-button {
+            top: 270px;
+            left: -93px;
+        }
+    }
+
+    .mySwiper {
+        display: flex;
+        padding-top: 70px;
+        padding-bottom: 70px;
+
+        .swiper-slide.swiper-slide-active {
+            margin-left: 10px;
+        }
+
+    }
+}
