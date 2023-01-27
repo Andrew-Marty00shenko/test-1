@@ -95,7 +95,7 @@ const Main = () => {
         </div>
 
         <div className="main__bottom-content">
-            <form className="bottom-content__form">
+            <form className="main__bottom-content__form">
                 <h3>
                     Обсудим детали?
                 </h3>

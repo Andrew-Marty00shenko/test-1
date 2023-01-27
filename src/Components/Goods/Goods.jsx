@@ -100,8 +100,8 @@ const Goods = () => {
 
         <div className="goods__list">
             <Swiper
-                slidesPerView={3}
-                spaceBetween={0}
+                slidesPerView={"auto"}
+                spaceBetween={5}
                 slidesPerGroup={1}
                 loop={true}
                 loopFillGroupWithBlank={true}

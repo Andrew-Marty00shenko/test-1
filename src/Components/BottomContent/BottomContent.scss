@@ -87,3 +87,15 @@
         z-index: 1;
     }
 }
+
+@media (max-width: 1650px) {
+    .bottom-content {
+        padding: 0px 20px 0px 0px;
+        overflow: hidden;
+
+        &__img-3,
+        &__img-4 {
+            right: -50px;
+        }
+    }
+}

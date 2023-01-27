@@ -67,5 +67,19 @@
             margin-left: 10px;
         }
 
+        .swiper-slide {
+            width: 507px;
+        }
+
+    }
+}
+
+@media (max-width: 1650px) {
+    .goods {
+        padding: 199px 100px 31px;
+
+        .swiper-slide.swiper-slide-active {
+            margin-left: 20px;
+        }
     }
 }

@@ -91,7 +91,7 @@
         display: flex;
         justify-content: space-between;
 
-        .bottom-content__form {
+        &__form {
             display: flex;
             flex-direction: column;
             width: 506px;
@@ -143,6 +143,40 @@
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 28px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1650px) {
+    .main {
+        padding: 0px 20px;
+    }
+}
+
+@media (max-width: 1522px) {
+    .main {
+        &__side-menu {
+            display: flex;
+
+            div {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1330px) {
+    .main {
+        &__content {
+            flex-direction: column;
+            align-items: flex-start;
+
+            &-description {
+                margin-left: 0;
+                margin-top: 30px;
+                width: 833px;
+                height: 350px;
             }
         }
     }
